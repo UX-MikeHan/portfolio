@@ -13,48 +13,51 @@ body {
   background-color: #ffffff;
   font-family: 'Quicksand', sans-serif;
   font-size: 16px;
-  line-height: 1.2;
+  line-height: 1.6;
   color: #040c3d;
+}
+
+center {
+  Text-align: center;
 }
 
 h1 {
   font-size: 30px;
-  text-align: center;
 }
 
 h2 {
   font-size: 24px;
-  text-align: center;
 }
 
 h3 {
   font-size: 18px;
-  text-align: center;
 }
 
-a {
+nav ul li a {
   color: #040c3d;
-  text-align: center;
-}
-
-a:hover {
+  font-size: 18px;
   text-decoration: none;
+  font-weight: 400;
 }
 
-a:visited {
+nav ul li a:visited {
   color: #040c3d;
+}
+
+nav ul li a:hover {
+  color: #f9710d;
+}
+
+a:focus {
+  text-decoration: none;
 }
 
 a:active {
   color: #91d5fc;
 }
 
-a:hover,
-a:focus {
-  text-decoration: none;
-}
-
-button {
+button,
+.button {
   border: none;
   font-family: inherit;
   background-color: #040c3d;
@@ -67,17 +70,16 @@ button {
 }
 
 button:hover,
-button:focus {
+button:focus,
+.button: hover,
+.button: focus {
   cursor:pointer;
   opacity: 0.8;
 }
 
-a {
-  color: #0403cd;
-}
 #my-link {
-  color: green;
+  color: #91d5fc;
 }
 .my-link {
-  color: blue;
+  color: #040c3d;
 }
