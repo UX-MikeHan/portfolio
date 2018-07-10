@@ -17,8 +17,12 @@ body {
   color: #040c3d;
 }
 
-center {
-  Text-align: center;
+.center {
+  text-align:center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
 }
 
 h1 {
