@@ -29,31 +29,31 @@ h1 {
 
 h2 {
   font-size: 24px;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 h3 {
   font-size: 18px;
-  font-weight: 300;
+  font-weight: 400;
 }
 
-a {
+nav ul li a {
   color: #040c3d;
   font-size: 18px;
   text-decoration: none;
   font-weight: 400;
 }
 
-a:visited {
+nav ul li a:visited {
   color: #040c3d;
 }
 
-a:hover,
-a:focus {
+nav ul li a:hover,
+nav ul li a:focus {
   color: #f9710d;
 }
 
-a:active {
+nav ul li a:active {
   color: #91d5fc;
 }
 
