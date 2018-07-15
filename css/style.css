@@ -25,6 +25,7 @@ body {
 h1 {
   font-size: 28px;
   font-weight: 700;
+  padding: 40px 0;
   text-align:left;
 }
 
@@ -38,6 +39,26 @@ h3 {
   font-size: 18px;
   font-weight: 400;
   text-align:center;
+}
+
+a {
+  color: #040c3d;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+a:visited {
+  color: #040c3d;
+}
+
+a:hover,
+a:focus {
+  color: #f9710d;
+}
+
+a:active {
+  color: #91d5fc;
 }
 
 nav ul li a {
@@ -60,13 +81,6 @@ nav ul li a:active {
   color: #91d5fc;
 }
 
-li {
-  text-align: left;
-}
-
-p {
-  text-align: left;
-}
 
 button,
 .button {
@@ -134,7 +148,7 @@ button:focus,
   margin-right: 1%;
   display:inline-block;
   float: left;
-  text-align:center;
+  text-align:left;
 }
 
 .column-2:nth-child(2) {
@@ -161,4 +175,22 @@ button:focus,
   .logo {
     /* Make logo smaller by changing it's height */
     height: 50px;
+  }
+
+  .cnt {
+    list-style-type: none;
+    display: inline-block;
+    width: 100%;
+    padding: 30px 0;
+  }
+
+  .cnt li {
+    float: left;
+    width: 30%;
+    margin-right: 5%;
+    text-align: center;
+  }
+
+  .cnt li:last-child {
+    margin-right: 0;
   }
