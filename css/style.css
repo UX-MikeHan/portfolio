@@ -93,6 +93,17 @@ button:focus,
   opacity: 0.8;
 }
 
+/*Animation*/
+
+@keyframes cloud-move {
+  from {transform: translate(0,50px);}
+  to {transform: translate(200px,50px);}
+}
+.city {
+  animation: 30s cloud-move infinite alternate linear;
+}
+
+
 /* Layout styling */
 .center {
   text-align:center;
@@ -157,6 +168,7 @@ header {
 .cnt li:last-child {
   margin-right: 0;
 }
+
 @media all and (max-width: 500px) {
   .logo {
     /* Make logo smaller by changing it's height */
